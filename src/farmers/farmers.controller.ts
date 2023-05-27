@@ -46,6 +46,24 @@ export class FarmersController {
     const limit: number = parseInt(query.limit) || 10;
     const order: string = query.order || '-1';
     const sortBy: string = query.sortBy || '_id';
+
+    if (query.search) {
+      const searchData = query.search;
+      query = {
+        ...query,
+        ...{
+          $or: [
+            { name: new RegExp(searchData, 'i') },
+            { email: new RegExp(searchData, 'i') },
+            { UniqueRegNumber: new RegExp(searchData, 'i') },
+            { mobileNumber: new RegExp(searchData, 'i') },
+          ],
+        },
+      };
+    }
+
+    // delete unnecessary fields so that "find" will not try to search for keys which are not present in document
+    delete query.search;
     delete query.page;
     delete query.limit;
     delete query.order;

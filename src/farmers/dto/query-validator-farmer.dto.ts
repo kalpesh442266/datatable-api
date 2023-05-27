@@ -33,4 +33,7 @@ export class QueryValidatorFarmerDto {
 
   @IsOptional()
   sortBy: string;
+
+  @IsOptional()
+  search: string;
 }
