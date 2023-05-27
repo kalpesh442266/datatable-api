@@ -15,7 +15,7 @@ export class Farmers extends Document {
   UniqueRegNumber: string;
 
   @Prop({ required: true })
-  landOwned: string;
+  landOwned: number;
 
   @Prop({ required: true })
   city: string;
