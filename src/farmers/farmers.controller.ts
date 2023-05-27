@@ -98,8 +98,8 @@ export class FarmersController {
 
   // edit many farmer
   @Delete()
-  async deleteMany(@Body('ids') ids: string) {
-    const idArr = ids.split(',');
+  async deleteMany(@Body('ids') idArr: Array<string>) {
+    console.log(idArr);
     return await this.farmersService.deleteMany({ _id: { $in: idArr } });
   }
 }
