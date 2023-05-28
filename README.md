@@ -6,6 +6,8 @@
 
 # - you have created supraDataTable database in your database
 
+# - if you want you can make use of sample_data.json by importing it in mongodb collection
+
 sample .env
 
 MONGODB_URL=mongodb://localhost:27017

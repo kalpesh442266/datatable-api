@@ -1,0 +1,235 @@
+[{
+  "_id": {
+    "$oid": "6471fce8988e94b796ca081d"
+  },
+  "name": "Kalpesh Rane",
+  "email": "Kalpeshbrane@gmail.com",
+  "landOwned": 22,
+  "city": "NASHIK",
+  "state": "MAHARASHTRA",
+  "mobileNumber": "7028647137",
+  "createdAt": {
+    "$date": "2023-05-27T12:51:52.377Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-27T12:51:52.377Z"
+  },
+  "__v": 0,
+  "uniqueRegNumber": "F1234"
+},{
+  "_id": {
+    "$oid": "6472078228d50636b31bb728"
+  },
+  "name": "Bhushan Ahire",
+  "email": "bhushanahire22@gmail.com",
+  "landOwned": 28,
+  "city": "NASHIK",
+  "state": "MAHARASHTRA",
+  "mobileNumber": "7028648137",
+  "createdAt": {
+    "$date": "2023-05-27T13:37:06.958Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-27T13:49:52.797Z"
+  },
+  "__v": 0,
+  "uniqueRegNumber": "F1235"
+},{
+  "_id": {
+    "$oid": "64720aad4577cddff2f16b58"
+  },
+  "name": "Rahul Yele",
+  "email": "rahulyele@gmail.com",
+  "landOwned": 100,
+  "city": "NASHIK",
+  "state": "MAHARASHTRA",
+  "mobileNumber": "7128648137",
+  "createdAt": {
+    "$date": "2023-05-27T13:50:37.671Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-27T13:50:37.671Z"
+  },
+  "__v": 0,
+  "uniqueRegNumber": "F1236"
+},{
+  "_id": {
+    "$oid": "6472158008866bbf432d8408"
+  },
+  "name": "Kalpesh Rane",
+  "email": "Kalpeshbrane@gmail.com",
+  "landOwned": 22,
+  "city": "NASHIK",
+  "state": "MAHARASHTRA",
+  "mobileNumber": "7028649137",
+  "createdAt": {
+    "$date": "2023-05-27T12:51:52.377Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-27T12:51:52.377Z"
+  },
+  "__v": 0,
+  "uniqueRegNumber": "F1232"
+},{
+  "_id": {
+    "$oid": "647215bc08866bbf432d840b"
+  },
+  "name": "Kalpesh Rane",
+  "email": "Kalpeshbrane@gmail.com",
+  "uniqueRegNumber": "F1237",
+  "landOwned": 22,
+  "city": "NASHIK",
+  "state": "MAHARASHTRA",
+  "mobileNumber": "7028649132",
+  "createdAt": {
+    "$date": "2023-05-27T12:51:52.377Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-27T12:51:52.377Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647215bc08866bbf432d840c"
+  },
+  "name": "Bhushan Ahire",
+  "email": "bhushanahire22@gmail.com",
+  "uniqueRegNumber": "F1238",
+  "landOwned": 28,
+  "city": "NASHIK",
+  "state": "MAHARASHTRA",
+  "mobileNumber": "7028848134",
+  "createdAt": {
+    "$date": "2023-05-27T13:37:06.958Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-27T13:49:52.797Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647215bc08866bbf432d840d"
+  },
+  "name": "Rahul Yele",
+  "email": "rahulyele@gmail.com",
+  "uniqueRegNumber": "F1239",
+  "landOwned": 100,
+  "city": "NASHIK",
+  "state": "MAHARASHTRA",
+  "mobileNumber": "7128658139",
+  "createdAt": {
+    "$date": "2023-05-27T13:50:37.671Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-27T13:50:37.671Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6472161708866bbf432d8411"
+  },
+  "name": "Kalpesh Rane",
+  "email": "Kalpeshbrane@gmail.com",
+  "uniqueRegNumber": "F2237",
+  "landOwned": 22,
+  "city": "NASHIK",
+  "state": "MAHARASHTRA",
+  "mobileNumber": "8028649132",
+  "createdAt": {
+    "$date": "2023-05-27T12:51:52.377Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-27T12:51:52.377Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6472161708866bbf432d8413"
+  },
+  "name": "Rahul Yele",
+  "email": "rahulyele@gmail.com",
+  "uniqueRegNumber": "F2239",
+  "landOwned": 100,
+  "city": "NASHIK",
+  "state": "MAHARASHTRA",
+  "mobileNumber": "7728658139",
+  "createdAt": {
+    "$date": "2023-05-27T13:50:37.671Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-27T13:50:37.671Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6472161708866bbf432d8414"
+  },
+  "name": "Rahul Yele",
+  "email": "rahulyele@gmail.com",
+  "uniqueRegNumber": "F2231",
+  "landOwned": 100,
+  "city": "NASHIK",
+  "state": "MAHARASHTRA",
+  "mobileNumber": "7729658139",
+  "createdAt": {
+    "$date": "2023-05-27T13:50:37.671Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-27T13:50:37.671Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6472161708866bbf432d8415"
+  },
+  "name": "Rahul Yele",
+  "email": "rahulyele@gmail.com",
+  "uniqueRegNumber": "F2232",
+  "landOwned": 100,
+  "city": "NASHIK",
+  "state": "MAHARASHTRA",
+  "mobileNumber": "7728678139",
+  "createdAt": {
+    "$date": "2023-05-27T13:50:37.671Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-27T13:50:37.671Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6472161708866bbf432d8416"
+  },
+  "name": "Rahul Yele",
+  "email": "rahulyele@gmail.com",
+  "uniqueRegNumber": "F2233",
+  "landOwned": 100,
+  "city": "NASHIK",
+  "state": "MAHARASHTRA",
+  "mobileNumber": "7728658739",
+  "createdAt": {
+    "$date": "2023-05-27T13:50:37.671Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-28T09:15:22.713Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6472f8ca224b8e3cf3f62e83"
+  },
+  "name": "KALPESH BHARAT RANE",
+  "email": "kalpeshbrane@gmail.com",
+  "uniqueRegNumber": "S3456",
+  "landOwned": 10,
+  "city": "Nashik",
+  "state": "Maharashtra",
+  "mobileNumber": "5508647137",
+  "createdAt": {
+    "$date": "2023-05-28T06:46:34.504Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-28T09:18:45.037Z"
+  },
+  "__v": 0
+}]
