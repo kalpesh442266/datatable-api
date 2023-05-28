@@ -18,8 +18,7 @@ export class FarmersService {
         { mobileNumber: createFarmerDto?.mobileNumber },
       ],
     });
-
-    if (farmer) {
+    if (farmer?.length) {
       throw new ConflictException(
         'User with given mobile number or UID already exists',
       );
