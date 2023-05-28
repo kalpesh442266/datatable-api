@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, ConflictException } from '@nestjs/common';
 import { CreateFarmerDto } from './dto/create-farmer.dto';
 import { InjectModel } from '@nestjs/mongoose';
 import { Farmers } from './schema/farmer.schema';
@@ -12,6 +12,18 @@ export class FarmersService {
 
   // create a new farmer
   async create(createFarmerDto: CreateFarmerDto) {
+    const farmer = await this.farmersDb.find({
+      $or: [
+        { uniqueRegNumber: createFarmerDto?.uniqueRegNumber },
+        { mobileNumber: createFarmerDto?.mobileNumber },
+      ],
+    });
+
+    if (farmer) {
+      throw new ConflictException(
+        'User with given mobile number or UID already exists',
+      );
+    }
     return await this.farmersDb.create(createFarmerDto);
   }
 

@@ -24,7 +24,7 @@ export class CreateFarmerDto {
   @IsString()
   @IsNotEmpty()
   @Length(3, 50)
-  UniqueRegNumber: string;
+  uniqueRegNumber: string;
 
   @IsNumber()
   @IsNotEmpty()

@@ -12,7 +12,7 @@ export class Farmers extends Document {
   email: string;
 
   @Prop({ required: true, unique: true })
-  UniqueRegNumber: string;
+  uniqueRegNumber: string;
 
   @Prop({ required: true })
   landOwned: number;

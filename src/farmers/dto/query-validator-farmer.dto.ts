@@ -8,7 +8,7 @@ export class QueryValidatorFarmerDto {
   email: string;
 
   @IsOptional()
-  UniqueRegNumber: string;
+  uniqueRegNumber: string;
 
   @IsOptional()
   landOwned: number;

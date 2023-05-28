@@ -42,11 +42,14 @@ export class FarmersController {
     )
     query: QueryValidatorFarmerDto,
   ) {
+    //convert query param string to integers
     const page: number = parseInt(query.page) || 1;
     const limit: number = parseInt(query.limit) || 10;
+
     const order: string = query.order || '-1';
     const sortBy: string = query.sortBy || '_id';
 
+    // add search query search by name email uid & mobil number
     if (query.search) {
       const searchData = query.search;
       query = {
@@ -55,7 +58,9 @@ export class FarmersController {
           $or: [
             { name: new RegExp(searchData, 'i') },
             { email: new RegExp(searchData, 'i') },
-            { UniqueRegNumber: new RegExp(searchData, 'i') },
+            { state: new RegExp(searchData, 'i') },
+            { city: new RegExp(searchData, 'i') },
+            { uniqueRegNumber: new RegExp(searchData, 'i') },
             { mobileNumber: new RegExp(searchData, 'i') },
           ],
         },
@@ -76,6 +81,7 @@ export class FarmersController {
       sortBy,
       query,
     );
+    // find total count of data
     const total = await this.farmersService.count(query);
 
     return {
@@ -117,7 +123,6 @@ export class FarmersController {
   // edit many farmer
   @Delete()
   async deleteMany(@Body('ids') idArr: Array<string>) {
-    console.log(idArr);
     return await this.farmersService.deleteMany({ _id: { $in: idArr } });
   }
 }
